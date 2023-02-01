@@ -1688,8 +1688,33 @@ span i {
     }
 
     .text-div {
-        width: 550px;
+        width: 471px;
     }
+    .fileUpload {
+    width: 744px;
+}
+.forgetpassword {
+    height: 986px;
+}
+.signDiv {
+    height: 1016px;
+}
+.contactBanner {
+    height: 987px;
+}
+.banner::after {
+    display: none;
+}
+.image3Div {
+    height: 591px;
+    width: 471px;
+}
+.lastDivSectionTwo {
+    right: 0px;
+}
+.second-section .text-div {
+    width: 370px;
+}
 }
 
 @media only screen and (max-width:820px) {
@@ -1697,8 +1722,26 @@ span i {
         display: block;
     }
 
-    #main-content {
+    .destop-nav-bar {
         display: none;
+    }
+
+    #btn {
+        display: block;
+    }
+
+    .imglogo {
+        width: 150px;
+        margin: 50px auto 0 auto;
+    }
+
+    .item {
+        text-align: center;
+    }
+
+    .item {
+        font-size: 18px;
+        margin: 20px 0;
     }
 
     .banner,
@@ -1713,7 +1756,7 @@ span i {
     }
 
     .whiteDiv {
-        top: 714px;
+        top: 304px;
         right: 40px;
     }
 
@@ -1762,6 +1805,12 @@ span i {
         margin: 0 auto;
         margin-top: 3rem;
     }
+    #background-video{
+        width: 100%;
+    }
+    .banner::after{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -1789,6 +1838,12 @@ span i {
     .item {
         font-size: 18px;
         margin: 20px 0;
+    }
+    #background-video{
+        width: 100%;
+    }
+    .banner::after{
+        display: none;
     }
 }
 
