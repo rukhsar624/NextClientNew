@@ -614,6 +614,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 .third-section .text-div h2 {
@@ -851,7 +852,7 @@ span i {
 }
 
 .footerCont ul li i {
-    padding: 10px;
+    margin-right: 11px;
 }
 
 /* Search  our database */
@@ -917,9 +918,40 @@ span i {
 
 .banner2 .text-div i {
     font-size: 2rem;
-    color: #0071BC;
+    /* color: #0071BC; */
 }
+.banner2 .text-div  .checked{
+    color: #0071BC;
+    /* opacity: 0.2; */
+  }
+  .banner2 .text-div  .inchecked{
+    color: #0071BC;
+    opacity: 0.6;
+  }
+  .banner2 .text-div .unchecked{
+    color: #0071BC;
+    opacity: 0.4;
+}
+.banner2 .text-div  .lastchecked{
+    color: #0071BC;
+    opacity: 0.2;
+}
+.banner1 .text-div .checked , .contactBannerDiv .checked{
+    color: #0071BC;
 
+}
+.banner1 .text-div .inchecked , .contactBannerDiv .inchecked{
+    color: #0071BC;
+    opacity: 0.6;
+  }
+  .banner1 .text-div .unchecked , .contactBannerDiv .unchecked{
+    color: #0071BC;
+    opacity: 0.4;
+}
+.banner1 .text-div .lastchecked , .contactBannerDiv .lastchecked{
+    color: #0071BC;
+    opacity: 0.2;
+}
 .sectionCstm {
     padding: 1rem;
     margin-top: 6rem;
@@ -928,6 +960,16 @@ span i {
 .sectionCstm label {
     font-family: "Gilroy-Light";
     color: #808080;
+
+}
+.cstmdiv form{
+    width: 1000px;
+    margin: auto;
+
+}
+.sectionCstm form{
+    width: 1000px;
+    margin: auto;
 
 }
 .sectionCstm{
@@ -948,7 +990,10 @@ span i {
 .memberStar i {
     color: #003D70;
 }
+.memberStar .last{
+    color: #808080;
 
+}
 .sectionCstm h4 {
     text-align: center;
 }
@@ -970,14 +1015,14 @@ span i {
     padding-top: 2rem;
 }
 
-.sectionCstm span p {
+.sectionCstm .span p {
     font-family: 'Gilroy-Light';
     color: #0071BC;
-    /* margin-left: 2rem; */
+    margin-left: 2rem;
 
 }
 
-.sectionCstm span {
+.sectionCstm .span span {
     color: #4D4D4D;
     font-family: 'Gilroy-Light';
     margin-left: 2rem;
@@ -1070,6 +1115,7 @@ span i {
     border-radius: 50px;
     font-family: "Gilroy-Light";
     box-shadow: rgb(0 0 0 / 16%) 8px 19px 33px;
+
 }
 
 .signForm textarea {
@@ -1613,6 +1659,10 @@ span i {
         display: flex;
         align-items: center;
     }
+    .third-section{
+    width: 1539px;
+    margin: auto;
+    }
 }
 
 /* ===================  Max Media Queries ======================== */
@@ -1631,7 +1681,7 @@ span i {
 
     .link a {
         text-decoration: none;
-        margin: 0 10px;
+        margin: 0 28px;
         color: #000;
         align-items: center;
         padding-right: 1px;
@@ -1662,6 +1712,18 @@ span i {
         width: 369px;
         height: 500px;
     }
+    .InnerBox {
+        width: 276px;
+        height: 180px;
+    }
+    .lastDivSectionTwo {
+        position: absolute;
+        content: "";
+        width: 350px;
+        height: 79px;
+        right: -111px;
+        bottom: -30px;
+    }
 }
 
 @media only screen and (max-width:1280px) {
@@ -1686,7 +1748,15 @@ span i {
         font-weight: bold;
         font-size: 11px;
     }
-
+    .cstmdiv form {
+        width: 880px;
+        margin: auto;
+    }
+    .InnerBox {
+        width: 236px;
+        height: 180px;
+        padding: 0px;
+    }
     .text-div {
         width: 471px;
     }
@@ -1714,6 +1784,10 @@ span i {
 }
 .second-section .text-div {
     width: 370px;
+}
+.sectionCstm form {
+    width: 920px;
+    margin: auto;
 }
 }
 
@@ -1811,6 +1885,24 @@ span i {
     .banner::after{
         display: none;
     }
+    .sectionCstm form {
+        width: 710px;
+        margin: auto;
+    }
+    .cstmdiv form {
+        width: 637px;
+        margin: auto;
+    }
+    .InnerBox {
+        width: 100%;
+        height: 180px;
+    }
+    .matchResult .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -1844,6 +1936,14 @@ span i {
     }
     .banner::after{
         display: none;
+    }
+    .sectionCstm form {
+        width: 560px;
+        margin: auto;
+    }
+    .InnerBox {
+        width: 100%;
+        height: 180px;
     }
 }
 
@@ -2044,6 +2144,15 @@ span i {
         height: 500px;
         position: relative!important;
         z-index: -1;
+        width: 100%;
+    }
+    .sectionCstm{
+        width: 100%;
+    }
+    .sectionCstm form{
+        width: 100%;
+    }
+    .cstmdiv form {
         width: 100%;
     }
 

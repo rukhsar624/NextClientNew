@@ -73,11 +73,11 @@
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-6 col-sm-12 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="text-div">
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
-                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star checked"></i>
+                        <i class="fa-sharp fa-solid fa-star inchecked"></i>
+                        <i class="fa-sharp fa-solid fa-star unchecked"></i>
+                        <i class="fa-sharp fa-solid fa-star lastchecked"></i>
+                        <i class="fa-sharp fa-solid fa-star lastchecked"></i>
                         <h1>Search <span>
                             Our <br>Database</span>
                         </h1>
@@ -103,29 +103,33 @@
     <!--  -->
     <section class="sectionCstm">
         <div class="container">
-            <div class="row">
-                <h4 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Customer <span>Search</span></h4>
-                <div class="col-lg-6 mb-3 mt-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <input type="text" placeholder="First Name" class="inputSearch">
-                </div>
-                <div class="col-lg-6 mb-3 mt-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <input type="text" placeholder="Last Name" class="inputSearch">
-                </div>
-                <span><p>*Only Information matching your search criteria will be displayed.</p></span>
-                <span>We do not publish address,email or phone numbers</span>
-                <h5 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Address</h5>
-                <div class="col-lg-12 mb-3 mt-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <input type="text" placeholder="Short answer" class="inputSearch">
-                </div>
-                <div class="col-lg-6 mb-3 mt-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <input type="tell" placeholder="Phone No." class="inputSearch">
-                </div>
-                <div class="col-lg-6 mb-3 mt-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <input type="email" placeholder="Email" class="inputSearch">
-                </div>
-                <div class="col-lg-12 mb-3 mt-4 text-center">
-                    <a href="../pages/customersearchresult.html"><button type="button" class="Btn wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Search Now</button></a>
-                </div>
+            <form action="" class="form">
+            <div class="row d-flex justify-content-center align-items-center">
+                <h4 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Customer<span> Search</span></h4>
+                    <div class="col-lg-6 mb-3 mt-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <input type="text" placeholder="First Name" class="inputSearch">
+                    </div>
+                    <div class="col-lg-6 mb-3 mt-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <input type="text" placeholder="Last Name" class="inputSearch">
+                    </div>
+                    <div class="span">
+                        <span><p>*Only Information matching your search criteria will be displayed.</p></span>
+                    <span>We do not publish address,email or phone numbers</span>
+                    </div>
+                    <h5 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Address</h5>
+                    <div class="col-lg-12 mb-3 mt-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <input type="text" placeholder="Short answer" class="inputSearch">
+                    </div>
+                    <div class="col-lg-6 mb-3 mt-3 wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <input type="tell" placeholder="Phone No." class="inputSearch">
+                    </div>
+                    <div class="col-lg-6 mb-3 mt-3 wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <input type="email" placeholder="Email" class="inputSearch">
+                    </div>
+                    <div class="col-lg-12 mb-3 mt-4 text-center">
+                        <a href="../pages/customersearchresult.html"><button type="button" class="Btn wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Search Now</button></a>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
