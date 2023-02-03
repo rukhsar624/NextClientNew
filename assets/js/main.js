@@ -55,4 +55,15 @@ function displayDiv(target){
 	console.log(display);
 
 }
+// Payment Button
+function openDiv(){
+	let display = document.getElementById('showBtn').style.display;
+	if( display==='block'){
+		document.getElementById('showBtn').style.display ='none';
+	}else{
+		document.getElementById('showBtn').style.display ='block';
+	}
+	console.log(display);
+}
+
 
