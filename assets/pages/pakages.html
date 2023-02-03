@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,9 +17,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <title>Nc || Pakages</title>
 </head>
+
 <body>
-     <!--Header open--->
-     <header class="header" id="navbar-fixed-top">
+    <!--Header open--->
+    <header class="header" id="navbar-fixed-top">
         <div class="container">
             <nav class="destop-nav-bar">
                 <div class="d-flex justify-content-between align-items-center">
@@ -79,154 +81,174 @@
                         <i class="fa-sharp fa-solid fa-star lastchecked"></i>
                         <i class="fa-sharp fa-solid fa-star lastchecked"></i>
                         <h1 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s"><span>
-                            Packages</span>
+                                Packages</span>
                         </h1>
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </section>
     <section class="pkgSection">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center" onclick="openDiv()">
-                    <div class="pakagesInner wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <label for="p1" class="w-100">
+                        <input type="radio" name="package" id="p1" hidden>
+                    <div class="pakagesInner wow animated fadeInLeft p-card" data-wow-duration="1s" data-wow-delay="0.5s" onclick="openDiv()">
                         <div class="pakagesInner">
-                            <div class="divMon">
-                                <h4>Monthly</h4>
-                                <span>$4.99/Month</span>
-                                <p>For 01 Search/Month</p>
+                                <div class="divMon">
+                                    <h4>Monthly</h4>
+                                    <span>$4.99/Month</span>
+                                    <p>For 01 Search/Month</p>
+                                </div>
+                            </label>
                             </div>
                         </div>
-                    </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center" onclick="openDiv()">
-                    <div class="pakagesInner wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <label for="p2" class="w-100">
+                        <input type="radio" name="package" id="p2" hidden>
+                    <div class="pakagesInner wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" onclick="openDiv()">
                         <div class="pakagesInner">
                             <div class="divMon">
                                 <h4>Monthly</h4>
                                 <span>$49/Month</span>
                                 <p>For 10 Search/Month</p>
                             </div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center" onclick="openDiv()">
-                    <div class="pakagesInner wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="pakagesInner">
-                        <div class="divMon">
-                            <h4>Monthly</h4>
-                            <span>$99/Month</span>
-                            <p>For Unlimited
-                                Search/Month</p>
-                        </div>
+                        </label>
                         </div>
                     </div>
                 </div>
-    
-                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center" onclick="openDiv()">
-                    <div class="pakagesInner wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <label for="p3" class="w-100">
+                        <input type="radio" name="package" id="p3" hidden>
+                    <div class="pakagesInner wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s" onclick="openDiv()">
                         <div class="pakagesInner">
-                        <div class="divMon">
-                            <h4>Annual</h4>
-                            <span>$49</span>
-                            <p>For 12 Searches</p>
-                        </div>
+                            <div class="divMon">
+                                <h4>Monthly</h4>
+                                <span>$99/Month</span>
+                                <p>For Unlimited
+                                    Search/Month</p>
+                            </div>
+                        </lable>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center" onclick="openDiv()">
-                    <div class="pakagesInner wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <label for="p4" class="w-100">
+                        <input type="radio" name="package" id="p4" hidden>
+                    <div class="pakagesInner wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s" onclick="openDiv()">
                         <div class="pakagesInner">
-                        <div class="divMon">
-                            <h4>Annual</h4>
-                            <span>$499</span>
-                            <p>For 120 Searches</p>
-                        </div>
+                            <div class="divMon">
+                                <h4>Annual</h4>
+                                <span>$49</span>
+                                <p>For 12 Searches</p>
+                            </div>
+                        </lable>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6  d-flex justify-content-center align-items-center" onclick="openDiv()">
-                    <div class="pakagesInner wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 d-flex justify-content-center align-items-center">
+                    <label for="p5" class="w-100">
+                        <input type="radio" name="package" id="p5" hidden>
+                    <div class="pakagesInner wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s" onclick="openDiv()">
                         <div class="pakagesInner">
-                        <div class="divMon">
-                            <h4>Annual</h4>
-                            <span>$999</span>
-                            <p>For Unlimited Searches</p>
+                            <div class="divMon">
+                                <h4>Annual</h4>
+                                <span>$499</span>
+                                <p>For 120 Searches</p>
+                            </div>
+                        </lable>
                         </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6  d-flex justify-content-center align-items-center">
+                    <label for="p6" class="w-100">
+                        <input type="radio" name="package" id="p6" hidden>
+                    <div class="pakagesInner wow animated fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s" onclick="openDiv()">
+                        <div class="pakagesInner">
+                            <div class="divMon">
+                                <h4>Annual</h4>
+                                <span>$999</span>
+                                <p>For Unlimited Searches</p>
+                            </div>
+                        </lable>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-12 mb-3 mt-4 text-center" id="showBtn">
-                    <a href="javascript:void(0)"><button type="button" class="Btn wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">Payment</button></a>
+                    <a href="../pages/payment.html"><button type="button" class="Btn wow animated bounceIn"
+                            data-wow-duration="1s" data-wow-delay="0.5s">Payment</button></a>
                 </div>
             </div>
         </div>
     </section>
     <!--  -->
-   <!-- footer -->
-   <section class="footer mt-4">
-    <div class="container pt-5 pb-5">
-        <div class="row d-flex justify-content-around align-items-baseline">
-            <div class="col-lg-3 col-md-12 col-sm-12 search">
-                <div class="footer-img">
-                    <a href="./../../index.html"><img src="../imgaes/SVG/logo.svg" alt=""> </a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 ">
-                <p>Pages</p>
-                <ul class="p-0">
-                    <li><a href="./../../index.html">Home</a></li>
-                    <li><a href="./searchdata.html">Search Our Database</a></li>
-                    <li><a href="./member.html">Become a member</a></li>
-                    <li><a href="./memberLogin.html">Member Login</a></li>
-                    <li><a href="./faqs.html">FAQ’s</a></li>
-                    <li><a href="./howitwork.html">How it works</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12">
-                <p>Social Links</p>
-                <div class="d-flex footer-icon">
-                    <div>
-                        <span><a href="https://www.instagram.com/" target="_blank"><i
-                                    class="fa-brands fa-instagram"></i></a></span>
-                    </div>
-                    <div>
-                        <span><a href="https://twitter.com/" target="_blank"><i
-                                    class="fa-brands fa-twitter"></i></a></span>
+    <!-- footer -->
+    <section class="footer mt-4">
+        <div class="container pt-5 pb-5">
+            <div class="row d-flex justify-content-around align-items-baseline">
+                <div class="col-lg-3 col-md-12 col-sm-12 search">
+                    <div class="footer-img">
+                        <a href="./../../index.html"><img src="../imgaes/SVG/logo.svg" alt=""> </a>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 footerCont">
-                <p>Contact Us</p>
-                <ul class="p-0">
-                    <li class="footer-ancher"><i class="fa-solid fa-phone p"></i><a href="tel:4703884601"
-                            >4703884601</a></li>
-                    <li><i class="fa-solid fa-envelope"></i><a href="mailto:webapparel@gmail.com"
-                            >sckeenon@gmail.com</a></li>
-                    <li><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/DKt5kZgULkunrP5MA" >3698
-                            Burel Mill Dr.buford 30519,
-                            US.</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center ">
-                    <a href="#" target="_blank">
-                        <span class="for-theme-link pt-1">
-                            Copyright@CONCEPTIONMASTERS2022
-                        </span>
-                    </a>
+                <div class="col-lg-3 col-md-12 col-sm-12 ">
+                    <p>Pages</p>
+                    <ul class="p-0">
+                        <li><a href="./../../index.html">Home</a></li>
+                        <li><a href="./searchdata.html">Search Our Database</a></li>
+                        <li><a href="./member.html">Become a member</a></li>
+                        <li><a href="./memberLogin.html">Member Login</a></li>
+                        <li><a href="./faqs.html">FAQ’s</a></li>
+                        <li><a href="./howitwork.html">How it works</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <p>Social Links</p>
+                    <div class="d-flex footer-icon">
+                        <div>
+                            <span><a href="https://www.instagram.com/" target="_blank"><i
+                                        class="fa-brands fa-instagram"></i></a></span>
+                        </div>
+                        <div>
+                            <span><a href="https://twitter.com/" target="_blank"><i
+                                        class="fa-brands fa-twitter"></i></a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 footerCont">
+                    <p>Contact Us</p>
+                    <ul class="p-0">
+                        <li class="footer-ancher"><i class="fa-solid fa-phone p"></i><a
+                                href="tel:4703884601">4703884601</a></li>
+                        <li><i class="fa-solid fa-envelope"></i><a
+                                href="mailto:webapparel@gmail.com">sckeenon@gmail.com</a></li>
+                        <li><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/DKt5kZgULkunrP5MA">3698
+                                Burel Mill Dr.buford 30519,
+                                US.</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!--  -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center ">
+                        <a href="https://conceptionmasters.com/" target="_blank">
+                            <span class="for-theme-link pt-1">
+                                All Copyrights Reserved by NextClient
+                                Designed & Developed by conceptionmasters
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
     <!-- jquery -->
     <script src="../js/jquery.min.js"></script>
     <!-- bootstrap jquery -->
@@ -238,4 +260,5 @@
     <!-- custom js -->
     <script src="../js/main.js"></script>
 </body>
+
 </html>

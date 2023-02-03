@@ -62,6 +62,7 @@ function openDiv(){
 		document.getElementById('showBtn').style.display ='none';
 	}else{
 		document.getElementById('showBtn').style.display ='block';
+		
 	}
 	console.log(display);
 }
