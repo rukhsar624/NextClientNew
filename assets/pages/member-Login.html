@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- bootstrap 5 -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <!-- Butter js -->
+    <!--Butter js  -->
     <link rel="stylesheet" href="../css/butter.css">
     <!-- wow css -->
     <link rel="stylesheet" href="../css/wow.css">
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <title>NC || Forget changepassword</title>
+    <title>NC || Sign In</title>
 </head>
 
 <body>
@@ -31,10 +31,10 @@
                         <div class="d-flex justify-content-end">
 
                             <a href="./../../index.html" class="header_links">Home</a>
-                            <a href="./searchdata.html" class="header_links">Search Our Database</a>
+                            <a href="./search-data.html" class="header_links">Search Our Database</a>
                             <a href="../pages/member.html" class="header_links">Review</a>
-                            <a href="../pages/memberLogin.html" class="header_links">Member Login</a>
-                            <a href="../pages/signup.html" class="header_links">Become a Member</a>
+                            <a href="../pages/member-Login.html" class="header_links active">Member Login</a>
+                            <a href="../pages/sign-up.html" class="header_links">Become a Member</a>
                             <a href="../pages/faqs.html" class="header_links">FAQ’s</a>
                             <a href="../pages/contact-us.html" class="header_links">Contact Us</a>
                             <a href="javascript:void(0)"><img src="../imgaes/1x/person.png" alt=""></a>
@@ -56,12 +56,12 @@
             <div id="items">
                 <div class="imglogo"><a href="./../../index.html"><img src="../imgaes/N_C_logo.png" alt=""></a></div>
                 <div class="item"><a href="./../../index.html" class="header_links">Home</a></div>
-                <div class="item"><a href="../pages/searchdata.html" class="header_links">Search Our Database</a></div>
+                <div class="item"><a href="../pages/search-data.html" class="header_links">Search Our Database</a></div>
                 <div class="item"><a href="../pages/member.html" class="header_links">Review</a>
                 </div>
-                <div class="item"><a href="../pages/memberLogin.html" class="header_links">Member Login</a>
+                <div class="item"><a href="../pages/member-Login.html" class="header_links active">Member Login</a>
                 </div>
-                <div class="item"><a href="../pages/signup.html" class="header_links">Become a Member</a></div>
+                <div class="item"><a href="../pages/sign-up.html" class="header_links">Become a Member</a></div>
                 <div class="item"><a href="../pages/faqs.html" class="header_links">FAQ’s</a></div>
                 <div class="item"><a href="../pages/contact-us.html" class="header_links">Contact Us</a></div>
                 <div class="item"> <a href="javascript:void(0)"><img src="../imgaes/1x/person.png" alt=""></a></div>
@@ -70,32 +70,38 @@
     </header>
     <!--  -->
     <!--Banner  -->
-    <section class="d-flex justify-content-center align-items-center contactBanner forgetpassword">
-        <div class="container mt-5">
+    <section class="d-flex justify-content-center align-items-center contactBanner signDiv">
+        <div class="container">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-lg-12 col-sm-12 d-flex justify-content-center mt-2">
-                    <div class="contactBannerDiv  wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="contactBannerDiv">
                         <i class="fa-sharp fa-solid fa-star checked"></i>
                         <i class="fa-sharp fa-solid fa-star inchecked"></i>
                         <i class="fa-sharp fa-solid fa-star unchecked"></i>
                         <i class="fa-sharp fa-solid fa-star lastchecked"></i>
                         <i class="fa-sharp fa-solid fa-star lastchecked"></i>
-                        <h1 class="mt-3 wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s"><span>
-                                Change Password</span>
+                        <h1 class="wow animated bounceIn" data-wow-duration="1s" data-wow-delay="0.5s"><span>
+                                Login</span>
                         </h1>
                     </div>
                 </div>
-                <form action="" class="signForm">
-                    <div class="mb-3 col-lg-10 mx-auto col-sm-12 d-flex justify-content-center align-items-center wow animated fadeInRight"
+                <form action="" class="signForm ">
+                    <div class="mb-3 mt-5 col-lg-10 mx-auto col-sm-12 d-flex justify-content-center align-items-center wow animated fadeInRight"
                         data-wow-duration="1s" data-wow-delay="0.5s">
-                        <input type="password" placeholder="Old Password">
+                        <input type="email" placeholder="Email/Username">
                     </div>
-                    <div class="mb-3 col-lg-10 mx-auto col-sm-12 d-flex justify-content-center align-items-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <input type="password" placeholder="New Password">
+                    <div class="mb-3 col-lg-10 mx-auto col-sm-12 d-flex justify-content-center align-items-center wow animated fadeInLeft"
+                        data-wow-duration="1s" data-wow-delay="0.5s">
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <div class="d-flex justify-content-end col-lg-9 col-md-9">
+                        <p><a href="../pages/forget-password.html">Forget Password?</a></p>
                     </div>
                     <div class="col-lg-12 mb-3 mt-4 text-center">
-                        <button type="button" class="Btnlogin wow animated bounceIn" data-wow-duration="1s"
-                            data-wow-delay="0.5s">Send</button>
+                        <button type="button" class="Btnlogin">Login</button>
+                    </div>
+                    <div class="col-lg-12 mb-3 mt-2 text-center signDivp">
+                        <P>Dont Have an account?<a href="../pages/signup.html"> SignUp </a></P>
                     </div>
                 </form>
             </div>
@@ -103,23 +109,23 @@
     </section>
     <!--  -->
     <!-- footer -->
-    <section class="footer mt-4">
+    <section class="footer">
         <div class="container pt-5 pb-5">
             <div class="row d-flex justify-content-around">
                 <div class="col-lg-3 col-md-12 col-sm-12 search">
                     <div class="footer-img">
-                        <a href="./../../index.html"><img src="../imgaes/N_C_logo.png" alt=""></a>
+                        <a href="./../../index.html"><img src="../imgaes/N_C_logo.png" alt=""> </a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 ">
                     <p>Pages</p>
                     <ul class="p-0">
                         <li><a href="./../../index.html">Home</a></li>
-                        <li><a href="./searchdata.html">Search Our Database</a></li>
+                        <li><a href="./search-data.html">Search Our Database</a></li>
                         <li><a href="./member.html">Review</a></li>
-                        <li><a href="./memberLogin.html">Member Login</a></li>
+                        <li><a href="./member-Login.html">Member Login</a></li>
                         <li><a href="./faqs.html">FAQ’s</a></li>
-                        <li><a href="./howitwork.html">How it works</a></li>
+                        <li><a href="./how-it-works.html">How it works</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12">
@@ -170,10 +176,6 @@
     <script src="../js/jquery.min.js"></script>
     <!-- bootstrap jquery -->
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <!-- butter js -->
-    <script src="../js/butter.js"></script>
-    <!-- wow js -->
-    <script src="../js/wow.js"></script>
     <!-- custom js -->
     <script src="../js/main.js"></script>
 </body>
